@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/webChat.js"></script>
+		<style type="text/css">
+			#iframeDiv{
+				width: 550px;
+				height: 550px;
+				position: fixed;
+				right: 80px;
+				bottom: 55px;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>
+			<h2>使用说明</h2>
+
+			<h3>1：介绍</h3>
+			         &emsp;本javascript只限采用客服地址的方式的接入客服功能使用。<br>
+			<h3>2：文件介绍</h3>
+			     &emsp;<b>2.1：</b>index.html 样例文件<br>
+			     &emsp;<b>2.2：</b>js/wechat.js 引入客服javascript脚本<br>
+			<h3>3：使用说明</h3>
+			     &emsp;<b>3.1：</b>参照index.html样例文件中的引用方式，其他方式请另行联系服务提供商，谢谢！<br /><br />
+			     
+			     &emsp;<b>3.2：</b>样例说明<br />
+			     &emsp;&emsp;生成的div的id为iframeDiv(可根据id名更改大小)
+			     <div>
+						&emsp;&emsp;#iframeDiv{<br />
+							&emsp;&emsp;&emsp;width: 550px;   //宽度<br />
+							&emsp;&emsp;&emsp;height: 550px;	//高度<br />
+							&emsp;&emsp;&emsp;position: fixed;//根据窗口定位<br />
+							&emsp;&emsp;&emsp;right: 80px;	//div距离窗口右侧80px<br />
+							&emsp;&emsp;&emsp;bottom: 55px;   //div距离窗口上部55px<br />
+						&emsp;&emsp;}<br />
+			     </div>
+			     
+			     <!--样式设置在head标签里面可查看-->
+		</h3>
+	 	<button onclick="openWebChat()" style="position: fixed;left: 330px;bottom: 330px;padding: 20px;color: yellow;background: #006834;font-size: 22px;">点我查看样例展示</button>
+	 	
+	</body>
+</html>
