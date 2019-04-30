@@ -5,15 +5,16 @@
 2：文件介绍
      2.1：index.html 样例文件
      2.2：js/wechat.js 引入客服javascript脚本
+     2.3：js/关闭.svg 关闭按钮动画
 3：使用说明
      3.1参照index.html样例文件中的引用方式，其他方式请另行联系服务提供商，谢谢！
 
      3.2样例说明
      生成的div的id为iframeDiv(可根据id名更改大小)
      #iframeDiv{
-	width: 300px;   //宽度
-	height: 300px;	//高度
-	position: fixed;//根据窗口定位
-	right: 80px;	//div距离窗口右侧80px
-	bottom: 55px;   //div距离窗口上部55px
+        width: 100%;   //宽度
+        height: 100%;	//高度
+        position: fixed;//根据窗口定位
+        right: 0px;	//div距离窗口右侧
+        bottom: 0px;   //div距离窗口上部
      }
