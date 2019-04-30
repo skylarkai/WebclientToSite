@@ -6,7 +6,6 @@
 各文件说明：
 js—webChat.js 引入js文件
 |
-js—关闭.svg 关闭按钮动画
 |--index.html 样例文件
 |--使用说明.txt readme.txt
 
@@ -16,11 +15,11 @@ js—关闭.svg 关闭按钮动画
 		<script type="text/javascript" src="js/webChat.js"></script>
 <style type="text/css">
 			#iframeDiv{
-                            width: 100%;   //宽度
-							height: 100%;	//高度
-							position: fixed;//根据窗口定位
-							right: 0px;	//div距离窗口右侧
-							bottom: 0px;   //div距离窗口上部
+				width: 550px;   ---宽度
+				height: 550px;  ---高度
+				position: fixed;  ---根据窗口定位
+				right: 80px;   
+				bottom: 55px;
 			}
 		</style>
 	</head>”
